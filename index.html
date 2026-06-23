@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GIF Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>GIF MAKER</h1>
+<p>Drag and drop your images here, or click to upload them from your device.</p>
+  <input type="file" id="imageUpload" multiple accept="image/*">
+<br><br>
+  <div id="previewContainer"></div>
+
+  <br>
+
+  <label>Speed (ms):</label>
+  <input type="number" id="speedInput" value="100">
+
+  <br><br>
+
+  <button id="generateBtn">Generate GIF</button>
+
+  <div id="gifResult"></div>
+
+  <!-- GIF library (required) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js"></script>
+
+  <!-- your code -->
+  <script src="script.js"></script>
+
+</body>
+</html>

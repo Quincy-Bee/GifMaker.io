@@ -1,0 +1,54 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+#generateBtn {
+    background-color: rgb(37, 37, 37);
+    color:rgb(255, 255, 255);
+    height: 25px;
+    box-shadow: 5px 5px 10px #818080;
+    font-size: 12pt;
+    margin-bottom: 25px;
+}
+
+#previewContainer {
+    background-color: rgba(252, 252, 252, 0.479);
+    border-style: dashed;
+    border-color: rgb(159, 159, 159);
+    padding: 20px;
+   
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gifResult{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imageUpload {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
